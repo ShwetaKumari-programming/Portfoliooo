@@ -1,4 +1,5 @@
 import { useState } from "react";
+import sur from '../assets/sur.jpeg';
 
 export default function About() {
   const [activeTab, setActiveTab] = useState("skills");
@@ -8,7 +9,7 @@ export default function About() {
       <div className="about-container">
 
         <div className="about-image">
-          <img src="/sur.jpeg" alt="Shweta Kumari" />
+          <img src={sur} alt="Shweta Kumari" />
         </div>
 
         <div className="about-content">

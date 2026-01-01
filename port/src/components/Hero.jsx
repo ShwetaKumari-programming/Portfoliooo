@@ -6,6 +6,7 @@ import {
   FaLinkedinIn,
   FaWhatsapp,
 } from "react-icons/fa";
+import shuu from '../assets/shuu.jpeg';
 
 export default function Hero() {
   const texts = [
@@ -89,7 +90,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-right">
-        <img src="/shuu.jpeg" alt="Shweta Kumari" />
+        <img src={shuu} alt="Shweta Kumari" />
       </div>
     </section>
   );

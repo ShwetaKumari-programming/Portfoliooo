@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://shwetakumari-programming.github.io/Portfoliooo",
+  "homepage": "https://shwetakumari-programming.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
